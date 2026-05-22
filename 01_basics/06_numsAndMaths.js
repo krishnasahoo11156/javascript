@@ -28,3 +28,7 @@ Raises a base number to the exponent power, that is, the base number multiplied 
 5 ** 2 (returns 25, which is the same as 5 * 5).
 
 */
+
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random()*(max-min+1))+min)
